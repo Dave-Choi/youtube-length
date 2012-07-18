@@ -32,7 +32,10 @@
 
 <p>Bookmarklet to add video duration to YouTube links on the current page.</p>
 
-<p>I was taking a break from work and skimming reddit, and thinking it would be nice to know how long a video is going to be before clicking on the link.  Google provides that data in an XML meta file that this script fetches and traverses.</p>
+<p>Drag the following link to your browser's bookmarks bar.  Just click, and any YouTube links on the current page will have the length of the video added to it.<br />
+<a href="javascript:var%20s%20=%20document.createElement('script');document.body.appendChild(s);s.src='http://dave-choi.github.com/youtube-length/javascripts/youtubeLength.min.js';void(0);">YouTube Length</a></p>
+
+<p>While browsing reddit, I thought it would be nice to know how long a video is going to be before clicking on the link.  Google provides that data in an XML meta file that this script fetches and traverses.</p>
 
 <p>The length of the video is appended to the link text in parentheses in H:MM:SS, format, or a shorter format if appropriate.</p>
 
