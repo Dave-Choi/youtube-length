@@ -33,7 +33,7 @@
 <p>Bookmarklet to add video duration to YouTube links on the current page.</p>
 
 <p>Drag the following link to your browser's bookmarks bar.  Just click, and any YouTube links on the current page will have the length of the video added to it.<br />
-<a href="javascript:var%20s%20=%20document.createElement('script');document.body.appendChild(s);s.src='http://dave-choi.github.com/youtube-length/javascripts/youtubeLength.min.js';void(0);">YouTube Length</a></p>
+<a href="javascript:(function(){var%20jq=document.createElement('script');jq.src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js';document.body.appendChild(jq);var%20s=document.createElement('script');document.body.appendChild(s);s.src='http://dave-choi.github.com/youtube-length/javascripts/youtubeLength.min.js';})();void(0);">YouTube Length</a></p>
 
 <p>You can click it now to try it: <a href="http://www.youtube.com/watch?v=dQw4w9WgXcQ">Sample YouTube Link</a></p>
 
