@@ -1,7 +1,5 @@
 (function() {
-	var s = document.createElement('script');
-	s.src = 'https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js';
-	document.body.appendChild(s);
+	// Assumes JQuery has been loaded, handled in bookmarklet itself to avoid bloated load order management.
 
 	// Credit to mantish on StackOverflow: http://stackoverflow.com/a/9102270
 	// Slightly modified to allow for other arguments to precede v (just added a .* after "watch?")
